@@ -87,7 +87,7 @@ function iniciarJuego(){
             INTERFAZ_GAMEOVER.childNodes[1].textContent ='Gana Computadora'}
         else{
             sacarFondo();
-            INTERFAZ_GAMEOVER.childNodes[1].textContent ='Gana Empate'}
+            INTERFAZ_GAMEOVER.childNodes[1].textContent ='Empate'}
     }
     else{ganador='sinseleccion'}
     if(ganador!='sinseleccion'){
